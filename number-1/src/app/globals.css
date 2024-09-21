@@ -1,0 +1,36 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+.home {
+  background-color: darkgreen;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  
+}
+
+.child {
+  padding-block: 20px ;
+  width: auto;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  color: gold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  color: rgb(248, 203, 4);
+  font-size: large;
+}
+
+a {
+  font-style: italic;
+  color: rgb(252, 234, 64);
+  cursor:cell
+}
