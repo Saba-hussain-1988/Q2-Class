@@ -2,17 +2,14 @@
 import Image from "next/image";
 import Footer from "@/components/foot";
 import Header from "@/components/head";
-import profile from"../../image/profile pic.jpg";
+import profile from"../../image/Hashir.jpg";
 
 
 export default function Home() {
   return (
     <div className="body">
+      <Header/>
       
-      <div className="head">
-        
-      </div>
-
       <div className="home">
 
       <div className="child">
@@ -39,19 +36,19 @@ export default function Home() {
             <li>Ladies & Gents Tailor Master</li>
           </ul>
         </div>
-      </div>
-
-
       <div className="img-cont">
         <img src={profile.src}
-        width={250}
-        height={250}
         className="pic"/>
       </div>
+      </div>
+
+
 
       </div>
 
-      <div className="foot"></div>
+      <div>
+      <Footer/>
+      </div>
       
     </div>
   )
