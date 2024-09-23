@@ -1,11 +1,19 @@
 
 import Image from "next/image";
+import Footer from "@/components/foot";
+import Header from "@/components/head";
 import profile from"../../image/profile pic.jpg";
 
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="body">
+      
+      <div className="head">
+        
+      </div>
+
+      <div className="home">
 
       <div className="child">
         <h1><b>Assalam U Alaekum...!</b></h1>
@@ -17,6 +25,20 @@ export default function Home() {
           <h1><b>S.R.Chohan</b></h1>
           <p>Under Graduate(Economics)</p>
         </div>
+
+        <div>
+          <h2><b>Skills</b></h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+            <li>Type Script</li>
+            <li>Nextjs (ongoing)</li>
+            <li>Art & Craft</li>
+            <li>Henna Art</li>
+            <li>Ladies & Gents Tailor Master</li>
+          </ul>
+        </div>
       </div>
 
 
@@ -27,6 +49,30 @@ export default function Home() {
         className="pic"/>
       </div>
 
+      </div>
+
+      <div className="foot"></div>
+      
     </div>
   )
 }
+
+
+// //?22-9-24
+
+// export default function Home(){
+//   return(
+//     <div>
+//       <Header/>
+
+
+//       <div>
+//         <Footer/>
+//       </div>
+
+
+//     </div>
+  
+//   )
+// }
+
