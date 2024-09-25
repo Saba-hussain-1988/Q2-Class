@@ -1,5 +1,3 @@
-
-import Image from "next/image";
 import Footer from "@/components/foot";
 import Header from "@/components/head";
 import profile from"../../image/Hashir.jpg";
