@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Footer from "@/components/foot";
 import Header from "@/components/head";
 import profile from"../../image/Hashir.jpg";
@@ -11,8 +12,8 @@ export default function Home() {
       <div className="home">
       <div className="child">
         <h1><b>Assalam U Alaekum...!</b></h1>
-        <p>I'm <strong><a target="blank" href="mailto:sabamustafa27.88@gmail.com">S.R.Chohan</a></strong>.<br/>
-        I'm a student of <abbr title="Governor Initiative Artificial Intelligence Course">GIAIC</abbr>.<br/>
+        <p>I am <strong><a target="blank" href="mailto:sabamustafa27.88@gmail.com">S.R.Chohan</a></strong>.<br/>
+        I am a student of <abbr title="Governor Initiative Artificial Intelligence Course">GIAIC</abbr>.<br/>
         I wanna be a good Developer.</p>
 
         <div>
@@ -36,8 +37,7 @@ export default function Home() {
      
       </div>
       <div className="img-cont">
-        <img src={profile.src}
-        className="pic"/>
+        <Image src={profile} alt="Profile picture" className="pic"></Image>
       </div>
       </div>
 
