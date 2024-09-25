@@ -4,12 +4,23 @@
 
 .body {
   background-color: rgb(3, 121, 3); 
+  overflow-x: hidden;
 }
 .home {
  
   align-items: center;
   justify-content: space-between;
   display: flex;
+  padding-right: 0%;
+  padding-left: 80px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  /* padding: 0; */
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
   
 }
 
@@ -17,8 +28,9 @@
   
   width: auto;
   height: auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* display: inline; */
 }
 
 h1 {
@@ -37,29 +49,43 @@ a, h2 {
   cursor:grab;
 }
 .img-cont {
-  border-style: dotted;
-  padding-top: 20px;
-  position:absolute;
+  /*
+  position: relative;
   height: 110%;
-  right: -30%;
-  bottom: -30%;
-  top: -10%;
+  right: -20%;
+  bottom: 50%;
+  top: 1px;
   width: 70%;
   transform: rotate(9.67deg);
   background: #a9a704;
+  overflow: hidden; */
+  position: absolute;
+  height: 140%;
+  right: -20%;
+  top: -20%;
+  width: 70%;
+  transform: rotate(9.67deg);
+  background: #000000;
   overflow: hidden;
-
+  z-index: 1;
+  border-style: dotted;
 }
 
-.pic {
-  
+ .pic { /*
   position:relative;
   width: 80%;
   height: 100%;
   top: 10%;
   left: -10%;
-  bottom: -10%;
   transform: rotate(-.21deg);
+   object-fit: contain; 
+  z-index: 1; */
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  top: 10%;
+  left: -10%;
+  transform: rotate(-9.67deg);
   object-fit: contain;
 }
 
@@ -67,11 +93,13 @@ a, h2 {
 
 .head-container {
   background-color: rgb(31, 87, 16);
-  
-  
+  size: 100%;
+  position: relative;
+  z-index:  9;
 }
 
 .head-button {
+  z-index: 9 9;
   padding: 10px;
   display: flex;
   justify-content: left;
@@ -82,11 +110,11 @@ a, h2 {
 
 #footer {
   background-color: rgb(31, 87, 16);
-  
- 
+  position: relative;
+  z-index: 9;
 }
+
 .link {
- 
   display: inline-flex;
   justify-content: center;
   align-items: center;

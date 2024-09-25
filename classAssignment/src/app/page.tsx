@@ -4,14 +4,13 @@ import Footer from "@/components/foot";
 import Header from "@/components/head";
 import profile from"../../image/Hashir.jpg";
 
-
 export default function Home() {
   return (
     <div className="body">
-      <Header/>
-      
+      <div>
+      <Header/>    
+      </div>  
       <div className="home">
-
       <div className="child">
         <h1><b>Assalam U Alaekum...!</b></h1>
         <p>I'm <strong><a target="blank" href="mailto:sabamustafa27.88@gmail.com">S.R.Chohan</a></strong>.<br/>
@@ -36,14 +35,12 @@ export default function Home() {
             <li>Ladies & Gents Tailor Master</li>
           </ul>
         </div>
+     
+      </div>
       <div className="img-cont">
         <img src={profile.src}
         className="pic"/>
       </div>
-      </div>
-
-
-
       </div>
 
       <div>
