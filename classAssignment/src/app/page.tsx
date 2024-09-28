@@ -1,11 +1,13 @@
 import Image from "next/image";
+import profile from"../../image/Hashir.jpg";
+import Animation from "@/components/animation";
 import Footer from "@/components/foot";
 import Header from "@/components/head";
-import profile from"../../image/Hashir.jpg";
 
 export default function Home() {
   return (
     <div className="body">
+      <Animation/>
       <div>
       <Header/>    
       </div>  
@@ -36,9 +38,11 @@ export default function Home() {
         </div>
      
       </div>
+      
       <div className="img-cont">
         <Image src={profile} alt="Profile picture" className="pic"></Image>
       </div>
+
       </div>
 
       <div>
