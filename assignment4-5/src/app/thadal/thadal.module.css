@@ -1,0 +1,36 @@
+import Image from "next/image"
+import styles from "./coffee.module.css"
+
+
+export default function Coffee(){
+    return(
+        <div className={styles.home_container}>
+            <div className={styles.box}>
+            <div>
+                <Image src={} alt="Coffee"></Image>
+            </div>
+            <div className={styles.content}>
+                <h1 className="text-black p-5 text-4xl sm:font-bold sm:w-screen text-center"></h1>
+            </div>
+            </div>
+
+            <div className={styles.box}>
+            <div className={styles.content}>
+                <h1 className="text-black p-5 text-4xl sm:font-bold sm:w-screen text-center"></h1>
+            </div>
+            <div>
+                <Image src={} alt="Coffee"></Image>
+            </div>
+            </div>
+
+            <div className={styles.box}>
+            <div>
+                <Image src={} alt="Coffee"></Image>
+            </div>
+            <div className={styles.content}>
+                <h1 className="text-black p-5 text-4xl sm:font-bold sm:w-screen text-center"></h1>
+            </div>
+            </div>
+        </div>
+    )
+}

@@ -1,16 +1,16 @@
 import Image from "next/image";
 import profile from"../../image/Hashir.jpg";
-import Animation from "@/components/animation";
-import Footer from "@/components/foot";
-import Header from "@/components/head";
+// import Animation from "@/components/animation";
+// import Footer from "@/components/foot";
+// import Header from "@/components/head";
 
 export default function Home() {
   return (
     <div className="body">
-      <Animation/>
+      {/* <Animation/>
       <div>
       <Header/>    
-      </div>  
+      </div>   */}
       <div className="home">
       <div className="child">
         <h1><b>Assalam U Alaekum...!</b></h1>
@@ -45,9 +45,9 @@ export default function Home() {
 
       </div>
 
-      <div>
+      {/* <div>
       <Footer/>
-      </div>
+      </div> */}
       
     </div>
   )
@@ -69,6 +69,21 @@ export default function Home() {
 
 //     </div>
   
+//   )
+// }
+
+
+
+// 29/9/24
+
+// export default function Home(){
+//   return(
+//     <div className="parent">
+//       <div className="child">
+
+//       </div>
+
+//     </div>
 //   )
 // }
 

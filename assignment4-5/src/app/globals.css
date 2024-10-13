@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#home-container {
+  padding: 0%;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.blog_box{
+  width: 30%;
+  margin: 1%;
+}
+.blog {
+ padding: 20px 20px;
+ border: 3px solid rgb(0, 0, 0);
+ width: 100%;
+ border-radius: 30px;
+ position: relative;
+ overflow: hidden;
+ transition: all ease 0.4s;
+  backdrop-filter: blur(20px); /* Blurs the background behind the card */
+  -webkit-backdrop-filter: blur(20px); /* For Safari support */
+
+
+}
+.blog::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(43, 12, 12);
+  left: 0;
+  bottom: -100%;
+  border-radius: 30px;
+  transition: all ease 0.3s;
+}
+.blog:hover::after {
+  bottom: 0;
+  border-radius: 0;
+  border: 3px solid rgb(255, 254, 254);
+}
+.blog .content{
+  height: 100%;
+  width: 100%; 
+  position: relative;
+  z-index: 9;
+}
+.blog:hover p{
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .blog_box{
+    width: 90%;
+  }
+}
+

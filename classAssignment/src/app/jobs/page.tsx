@@ -5,15 +5,15 @@ import Footer from "@/components/foot"
 export default function Jobs(){
     return(
         <div className="body">
-            <Animation/> 
+            {/* <Animation/> 
         <div>
         <Header/>
-        </div>
+        </div> */}
         <div className="child">
             <h1>This my job page.</h1>
         </div>
         
-        <Footer/>
+        {/* <Footer/> */}
         </div>
        
     )

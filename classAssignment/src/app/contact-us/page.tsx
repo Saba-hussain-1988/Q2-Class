@@ -5,10 +5,10 @@ import Footer from "@/components/foot"
 export default function Contact_us(){
     return(
         <div className="body">
-            <Animation/>
+            {/* <Animation/>
             <div>
                 <Header/>
-            </div>
+            </div> */}
             <div className="child">
                 <h1>Contact Us with:</h1>
                 <a target="_blank" href="https://www.linkedin.com/in/saba-mustafa-3aa41a322
@@ -19,9 +19,9 @@ export default function Contact_us(){
                 ">email</a>
             </div>
 
-            <div>
+            {/* <div>
                 <Footer/>
-            </div>
+            </div> */}
         </div>
     )
 }

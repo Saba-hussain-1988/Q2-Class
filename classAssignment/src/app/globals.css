@@ -5,6 +5,7 @@
 .body {
   background-color: rgb(3, 121, 3); 
   overflow-x: hidden;
+  margin:  0 0 0 0;
 }
 .home {
  
@@ -15,7 +16,7 @@
   padding-left: 80px;
   width: 100%;
   max-width: 1920px;
-  margin: 0 auto;
+  margin: 0;
   flex-wrap: wrap;
   position: relative;
   overflow: hidden;
@@ -24,7 +25,7 @@
 }
 
 .child {
-  
+  margin: 0;
   width: auto;
   height: auto;
   padding-left: 80px;
@@ -165,3 +166,48 @@ a, h2 {
   left: -50px;
   background-color: limegreen;
 }
+/* 
+.testing {
+  width: 500px;
+  height: 500px;
+  background-color: darkcyan;
+  border-radius: 10px;
+}
+
+@media only screen and(max-width: 300px) {
+  .testing {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+  }
+}
+
+
+@media only screen and(max-width: 400px) {
+  .child {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and(max-width: 500px) {
+  .testing {
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+  }
+}
+
+.parent {
+  height: 500px;
+  width: 500px;
+
+}
+
+.child {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+} */

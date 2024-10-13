@@ -5,19 +5,19 @@ import Footer from "@/components/foot"
 export default function About_us(){
     return(
         <div className="body">
-            <Animation/>
+            {/* <Animation/>
             <div>
                 <Header/>
-            </div>
+            </div> */}
             <div className="child">
                 <h1>Assalam U Alaekum...!</h1>
                 <p>I am S.R.Chohan</p>
             </div>
             
 
-            <div className="footer">
+            {/* <div className="footer">
                 <Footer/>
-            </div>
+            </div> */}
         </div>
         
     )

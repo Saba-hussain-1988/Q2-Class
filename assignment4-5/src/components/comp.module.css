@@ -1,0 +1,51 @@
+/* styles for header  */
+
+.header {
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    padding: 0% 10%;
+    align-items: center;
+}
+
+.li {
+    color: rgb(255, 254, 254);
+    font-weight: 500;
+    border-radius: 50%;
+    padding: 1% 5%px;
+}
+.li:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+.logo {
+    margin-left: 5%; /* Adjust margin as needed */
+    margin: 1%;
+  }
+
+  .footer {
+    width: 100%;
+    margin-top: 0;
+    background-color: rgb(136, 82, 136);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    padding: 5% 5%;
+  }
+
+  @media only screen and(max-width:600px) {
+    .footer{
+        display: block;
+        padding: 2% 2%;
+    }
+} 

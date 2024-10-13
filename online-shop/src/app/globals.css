@@ -34,7 +34,7 @@ body {
 .head-buttons {
   color: white;
   padding: 5px;
-  justify-items: center;
+  justify-items: centerffvv;
   display: inline-flex;
   cursor: pointer;
 }

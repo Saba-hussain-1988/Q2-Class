@@ -1,0 +1,13 @@
+/* styles/Home.module.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 30%; /* Width of each card */
+    height: 200px; /* Height of each card */
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+  }
