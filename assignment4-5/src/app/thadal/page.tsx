@@ -58,7 +58,7 @@ export default function Thadal(){
                 
                 Thadal is nutrient-rich, offering essential vitamins, minerals, and antioxidants from
                  its natural ingredients. It promotes hydration and acts as a natural coolant for the body. 
-                 However, moderation is recommended to avoid overconsumption of sugar or potential allergies.
+                 However, moderation is recommended to avoid over consumption of sugar or potential allergies.
                 </p>
             </div>
             </div>
