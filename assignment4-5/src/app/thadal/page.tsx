@@ -8,7 +8,7 @@ import pic3 from "../../../public/images/tha.jpg";
 
 export default function Thadal(){
     return(
-        <div className="bg-cover bg-center w=screen" style={{backgroundImage:`url('/images/bg_blog1.jpg')`}}>
+        <div className="bg-cover bg-center w-screen" style={{backgroundImage:`url('/images/bg_blog5.jpg')` }}>
             <div className={styles.home_container}>
 
             <div className="sm:flex justify-center m-4 p-8 overflow-hidden">
