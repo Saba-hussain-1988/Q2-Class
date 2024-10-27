@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { title } from "process";
+import pic from "../../public/iceco.jpg"
 
 const data = {title:"ubaid", description:"Hello every one"}
   
@@ -23,11 +24,14 @@ export default function Home() {
   return (
     <div className="page">
       
-
+ye blog hy
       <div className="blogs">
-        {data.map((IData)=>)}
+        {/* {data.map((data_obj)=>())} */}
         <div className="image-container">
+          <Image src={pic} alt="blog image" />
+          {/* ye pic lag gai kia bol rhi ho
 
+           */}
         </div>
         <div className="title">{data.title}</div>
         <div className="description">
@@ -37,7 +41,7 @@ export default function Home() {
 
       
 
-   
+  
 
     </div>
   );
